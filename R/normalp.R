@@ -464,9 +464,9 @@ invisible(x)
 
 plot.simul.mp<-function(x,...){
        mat<-x$dat
-       hist(mat[,1],breaks=10,freq=FALSE,xlab="",col="yellow",main=paste("Histogram of",colnames(mat)[1]))  
+       hist(mat[,1],breaks=10,freq=FALSE,xlab="",col="yellow",main=paste("Histogram of",colnames(x$table)[1]))
        op<-par(ask=TRUE)
-       for (i in 2:4) {hist(mat[,i],breaks=10,freq=FALSE,xlab ="",col=i,main=paste("Histogram of",colnames(mat)[i]))}
+       for (i in 2:4) {hist(mat[,i],breaks=10,freq=FALSE,xlab ="",col=i,main=paste("Histogram of",colnames(x$table)[i]))}
     pval<-mat[,5]
     pval<-pval[pval<=10]
      hist(pval,breaks=seq(1,11,by=1),freq=FALSE,xlab ="",col=5,main=("Histogram of p"))
@@ -545,7 +545,7 @@ invisible(a)
 
 plot.simul.lmp<-function(x,...){
          mat<-x$dat
-         hist(mat[,1],breaks=10,freq=FALSE,xlab="",col="blue",main=paste("Histogram of",colnames(mat)[1]))  
+         hist(mat[,1],breaks=10,freq=FALSE,xlab="",col="blue",main=paste("Histogram of intercept"))
          op<-par(ask=TRUE)
          for (i in 2:(ncol(mat)-1)) hist(mat[,i],breaks=10,freq=FALSE,xlab ="",col=rgb(runif(1),runif(1),runif(1)),main=paste("Histogram of",colnames(mat)[i]))
          if(x$lp==FALSE){
