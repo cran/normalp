@@ -1,8 +1,8 @@
 \name{plot.lmp}
 \alias{plot.lmp}
-\title{Diagnostic plots for an lmp object}
+\title{Diagnostic plots for a lmp object}
 \description{This function produces four plots: a plot of residuals against fitted value, a Normal Q-Q plot,
-a Normal of order \eqn{p}{p} Q-Q plot, a Scale-Location plot, with a \eqn{p}{p}-root of the standardized
+an Exponential Power Distribution Q-Q plot, a Scale-Location plot, with a \eqn{p}{p}-root of the standardized
 residuals against the fitted values.
 }
 \usage{
@@ -13,7 +13,7 @@ residuals against the fitted values.
     \item{...}{Further arguments passed to or from other methods.}
 }
 \details{The standardized residuals in the Normal Q-Q plot are those of an object \code{\link{lm}};
-in the Normal of order \eqn{p}{p} Q-Q plot and in the scale location plot the standardized residuals
+in the Exponential Power distribution Q-Q plot and in the scale location plot the standardized residuals
 are computed as \eqn{(e_i-m_p)/(s_p)}{(residuals-mp)/sp}.
 }
 \examples{

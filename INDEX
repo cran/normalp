@@ -1,22 +1,22 @@
-dnormp                  Density function of a Normal of Order p Distribution.
+dnormp                  Density function of an exponential power distribution.
 estimatep               Estimation of p.
-graphnp                 Plot of Normal of order p distributions.
+graphnp                 Plot of exponential power distributions.
 kurtosis                Indexes of kurtosis.
-lmp                     Fitted linear model with normal of order p errors.
+lmp                     Fitted linear model with exponential power distribution errors.
 paramp                  Estimation of location and scale parameters.
 plot.lmp                Diagnostic plots for an lmp object.
 plot.simul.lmp          Plots of the results of a simulation plan on a
                         linear regression model.
 plot.simul.mp           Plots of the results of a simulation plan on the parameters
-                        of a normal of order p distribution.
-pnormp                  Probability Function of a Normal of Order p
-                        Distribution.
-qnormp                  Quantiles of a Normal of Order p Distribution.
-qqnormp                 Quantile-Quantile plot for a normal of order p distribution.
-rnormp                  Pseudo-random numbers from a Normal of Order p Distribution.
-simul.lmp               Simulation planning for a linear regression
-                        model with errors distributed as a Normal of Order p.
-simul.mp                Simulation planning for the parameters of a normal of order p
+                        of an exponential power distribution.
+pnormp                  Probability function of an exponential power
                         distribution.
-summary.lmp             Summarize linear model fits with normal of order p errors.
+qnormp                  Quantiles of an exponential power distribution.
+qqnormp                 Quantile-Quantile plot for an exponential power distribution.
+rnormp                  Pseudo-random numbers from an exponential power distribution.
+simul.lmp               Simulation planning for a linear regression
+                        model with errors distributed as an exponential power distribution.
+simul.mp                Simulation planning for the parameters of an exponential power
+                        distribution.
+summary.lmp             Summarize linear model fits with exponential power distribution errors.
 summary.simul.lmp       Summarize simulation results on linear regression model.

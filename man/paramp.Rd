@@ -4,10 +4,10 @@
 \alias{print.paramp}
 \title{Estimation of location and scale parameters}
 \description{The function \code{paramp} returns a list with five elements: arithmetic mean, \eqn{M_p}{Mp},
-standard deviation, \eqn{S_p}{Sp}, and structure parameter \eqn{p}{p}, estimated on a sample.
+standard deviation, \eqn{S_p}{Sp}, and shape parameter \eqn{p}{p}, estimated on a sample.
 }
 \usage{
-paramp(x, p=NULL)
+paramp(x, p)
 }
 \arguments{
     \item{x}{A vector of observations.}
@@ -22,7 +22,7 @@ least squares method and the maximum likelihood method, it prints out also the m
 \item{Mp}{The estimated value of the location parameter.}
 \item{Sd}{Standard deviation.}
 \item{Sp}{The estimated value of the scale parameter.}
-\item{p}{The estimated value of the structure parameter.}
+\item{p}{The estimated value of the shape parameter.}
 \item{iter}{If its value is 1, we have had problems on convergence.}
 }
 \references{Mineo, A.M. (1996) \emph{La migliore combinazione delle osservazioni: curve normali di ordine p e

@@ -1,9 +1,9 @@
 \name{simul.lmp}
 \alias{simul.lmp}
-\title{Simulation planning for a linear regression model with errors distributed as a Normal of Order p}
+\title{Simulation planning for a linear regression model with errors distributed as an exponential power distribution}
 \description{This function performs a Monte Carlo simulation to compare least squares estimators and
-Maximum Likelihood estimators for a linear regression model with errors distributed as a normal of order
-\eqn{p}{p} distribution. The regressors are drawn from a \link{Uniform} distribution.
+Maximum Likelihood estimators for a linear regression model with errors distributed as an exponential power
+distribution. The regressors are drawn from an \link{Uniform} distribution.
 }
 \usage{
 simul.lmp(n, m, q, data, int=0, sigmap=1, p=2, lp=FALSE)
@@ -15,7 +15,7 @@ simul.lmp(n, m, q, data, int=0, sigmap=1, p=2, lp=FALSE)
     \item{data}{A vector of coefficients.}
     \item{int}{Value of the intercept.}
     \item{sigmap}{The scale parameter.}
-    \item{p}{The structure parameter.}
+    \item{p}{The shape parameter.}
     \item{lp}{Logical. If \code{TRUE}, it evaluates the coefficients with p known.}
     }
 \value{The function \code{simul.lmp} returns an object of class \code{"simul.lmp"}. A component of this object

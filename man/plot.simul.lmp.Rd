@@ -2,7 +2,7 @@
 \alias{plot.simul.lmp}
 \title{Plots of the results of a simulation plan on a linear regression model}
 \description{It returns the histograms of the estimates of the regression coefficients, of the scale
-parameter \eqn{\sigma_p}{sigmap} and of the structure parameter \eqn{p}{p}.
+parameter \eqn{\sigma_p}{sigmap} and of the shape parameter \eqn{p}{p}.
 }
 \usage{
 \method{plot}{simul.lmp}(x,...)

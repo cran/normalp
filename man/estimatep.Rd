@@ -1,7 +1,7 @@
 \name{estimatep}
 \alias{estimatep}
 \title{Estimation of p}
-\description{The \code{estimatep} function estimates the structure parameter \eqn{p} from a vector of observations.
+\description{The \code{estimatep} function estimates the shape parameter \eqn{p} from a vector of observations.
 }
 \usage{
 estimatep(x, mu, p=2, method=c("inverse","direct"))
@@ -9,10 +9,10 @@ estimatep(x, mu, p=2, method=c("inverse","direct"))
 \arguments{
     \item{x}{Vector of observations.}
     \item{mu}{An estimate of the location parameter.}
-    \item{p}{Starting value of the structure parameter.}
+    \item{p}{Starting value of the shape parameter.}
     \item{method}{Method used to estimate \eqn{p}{p} from a sample.}
 }
-\details{The used algorithm is based on a method proposed by A.M. Mineo, which uses a particular
+\details{The used algorithm is based on a method proposed by A.M. Mineo (1994), which uses a particular
  index of kurtosis, called \eqn{VI}{VI}
 
 \deqn{VI=\frac{\sqrt{\Gamma(1/p)\Gamma(3/p)}}{\Gamma(2/p)}.}{%

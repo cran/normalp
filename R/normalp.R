@@ -84,7 +84,7 @@ qqlinep<-function(y,p=2,...)
 
 qqnormp<-function(y, ylim, p, main, xlab, ylab, ...) UseMethod("qqnormp")
 
-qqnormp.default<-function(y, ylim, p=2, main="Normal of order p Q-Q plot",
+qqnormp.default<-function(y, ylim, p=2, main="Exponential Power Distribution Q-Q plot",
             xlab="Theoretical Quantiles", ylab="Sample Quantiles",...) 
 {
 y<-y[!is.na(y)]
@@ -389,7 +389,7 @@ mtext("Normal Q-Q plot", 3, 0.25)
 title(sub=subc)
 rs<-paramp(dat$residuals,p=dat$p)
 res<-(dat$residuals-rs$mp)/rs$sp
-qqnormp(res,p=rs$p,main="Normal of order p Q-Q plot",ylab="Standardized residuals",xlab="Theoretical Quantiles")
+qqnormp(res,p=rs$p,main="Exponential Power Distribution Q-Q plot",ylab="Standardized residuals",xlab="Theoretical Quantiles")
 title(sub=subc)
 plot(dat$fitted,(abs(res))^(1/rs$p),main="",xlab="Fitted values",ylab=expression(sqrt("Standardized residuals",p)))
 mtext("Scale-Location plot", 3, 0.25)
@@ -397,7 +397,7 @@ title(sub=subc)
 par(op)   
 }
 
-graphnp<-function(p=c(1,2,3,4,5),mu=0,sigmap=1,title="Normal of order p curves"){
+graphnp<-function(p=c(1,2,3,4,5),mu=0,sigmap=1,title="Exponential Power Distributions"){
 if(!is.numeric(p)||!is.numeric(mu)||!is.numeric(sigmap))
 stop (" Non-numeric argument to mathematical function")
 n<-length(p)

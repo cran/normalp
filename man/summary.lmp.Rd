@@ -1,11 +1,11 @@
 \name{summary.lmp}
 \alias{summary.lmp}
 \alias{print.summary.lmp}
-\title{Summarize linear model fits with normal of order p errors}
+\title{Summarize linear model fits with exponential power distribution errors}
 \description{This function is the \code{summary} method for class \code{"lmp"}. This function
 produces a set of results for a linear regression model.
 By assuming that in a linear regression model the errors
-are distributed as a Normal of order \eqn{p}{p}, we can use the function \code{\link{lmp}}.}
+are distributed as an exponential power distribution, we can use the function \code{\link{lmp}}.}
 }
 \usage{
 \method{summary}{lmp}(object, ...)
@@ -24,11 +24,11 @@ from its argument, plus
 \item{Call}{The matched call.}
 \item{Residuals}{A summary of the vector of residuals \eqn{e_i}{e[i]}.}
 \item{Coefficients}{Vector of coefficients.}
-\item{Estimate of p}{An estimate of the structure parameter \eqn{p}{p}.}
+\item{Estimate of p}{An estimate of the shape parameter \eqn{p}{p}.}
 \item{Power deviation of order p}{The power deviation of order \eqn{p}{p} given by
 \deqn{S_p = \left[\frac{\sum e_i^p}{n-q}\right]^\frac{1}{p}}{%
 Sp = (1/(n-p) Sum(e[i]^p))^1/p}
-where \eqn{q}{q} is or the number of the estimated regression coefficients if \eqn{p}{p} is known,
+where \eqn{q}{q} is either the number of the estimated regression coefficients if \eqn{p}{p} is known,
 either the number of the estimated regression coefficients plus 1 if \eqn{p}{p} is estimated.}
 }
 \examples{

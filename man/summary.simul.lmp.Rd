@@ -4,7 +4,7 @@
 \title{Summarize simulation results on linear regression model}
 \description{This function is the \code{summary} method for class \code{"simul.lmp"}. This function
 produces a set of results for a simulation plan for a linear regression model with
-errors distributed as a normal of order \eqn{p}{p}.
+errors distributed as an exponential power distribution.
 }
 \usage{
 \method{summary}{simul.lmp}(object, ...)
@@ -22,7 +22,7 @@ This function returns this information:
 \item{Coefficients}{The true values of coefficients used on the simulation model.}
 \item{Formula}{The used linear regression model.}
 \item{Number of samples}{Number of samples generated.}
-\item{Value of p}{Value of the structure parameter \eqn{p}{p} used to draw the samples.}
+\item{Value of p}{Value of the shape parameter \eqn{p}{p} used to draw the samples.}
 \item{Number of samples with problems on convergence}{If \eqn{p}{p} is estimated, we have information on
       the number of samples with problems on convergence.}
 }

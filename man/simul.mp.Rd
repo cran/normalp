@@ -2,12 +2,12 @@
 \alias{simul.mp}
 \alias{print.simul.mp}
 \alias{simul.mp.default}
-\title{Simulation planning for the parameters of a normal of order p distribution}
+\title{Simulation planning for the parameters of an exponential power distribution}
 \description{This function performs a Monte Carlo simulation to compare least square estimators and
-Maximum Likelihood estimators for the parameters of a normal of order \eqn{p}{p} distribution.
+Maximum Likelihood estimators for the parameters of an exponential power distribution.
 For each sample, it calls the function \code{\link{paramp}}, returning the arithmetic
 means, the max-likelihood estimates of the location parameter, the standard deviations,
-the max-likelihood estimates of the scale parameter and the estimates of the structure parameter.
+the max-likelihood estimates of the scale parameter and the estimates of the shape parameter.
 }
 \usage{
 simul.mp(n, m, mu=0, sigmap=1, p=2)
@@ -17,7 +17,7 @@ simul.mp(n, m, mu=0, sigmap=1, p=2)
     \item{m}{Number of samples.}
     \item{mu}{Value of the location parameter.}
     \item{sigmap}{Value of the scale parameter.}
-    \item{p}{the structure parameter.}
+    \item{p}{the shape parameter.}
 }
 \value{This function is useful to compare several kinds of estimators.
 It returns an object of class \code{"simul.mp"}, a list containing the following components:
