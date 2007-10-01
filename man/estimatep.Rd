@@ -27,7 +27,7 @@ direct solution of the equation
 \value{An estimate of \eqn{p}{p} from a sample of observations.}
 \references{Mineo, A.M. (1994) \emph{Un nuovo metodo di stima di p per una corretta valutazione dei
 parametri di intensit\`a e di scala di una curva normale di ordine p}, 
-Atti della XXXVII Riunione Scientifica della Società Italiana di Statistica, San Remo, Vol. 2, pp. 147-154.
+Atti della XXXVII Riunione Scientifica della Societ\`a Italiana di Statistica, San Remo, Vol. 2, pp. 147-154.
 }
 \examples{
 x<-rnormp(300,mu=1,sigmap=2,p=4)
