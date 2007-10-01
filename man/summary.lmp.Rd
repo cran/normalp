@@ -5,7 +5,7 @@
 \description{This function is the \code{summary} method for class \code{"lmp"}. This function
 produces a set of results for a linear regression model.
 By assuming that in a linear regression model the errors
-are distributed as an exponential power distribution, we can use the function \code{\link{lmp}}.}
+are distributed as an exponential power distribution, we can use the function \code{\link{lmp}}.
 }
 \usage{
 \method{summary}{lmp}(object, ...)
