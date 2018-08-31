@@ -3,3 +3,25 @@
 
 # Export all names
 exportPattern(".")
+
+S3method(lmp, default)
+S3method(paramp, default)
+S3method(plot, lmp)
+S3method(plot, simul.lmp)
+S3method(plot, simul.mp)
+S3method(print, paramp)
+S3method(print, simul.mp)
+S3method(print, summary.lmp)
+S3method(print, summary.simul.lmp)
+S3method(qqnormp, default)
+S3method(summary, lmp)
+S3method(summary, simul.lmp)
+
+importFrom("grDevices", "dev.interactive", "rgb")
+importFrom("graphics", "abline", "hist", "legend", "lines", "mtext",
+           "par", "plot", "title")
+importFrom("stats", "as.formula", "deviance", "df.residual", "dunif",
+           "lm", "lm.influence", "median", "optim", "pgamma", "ppoints",
+           "qgamma", "qqnorm", "quantile", "residuals", "rgamma",
+           "runif", "spline", "var")
+
