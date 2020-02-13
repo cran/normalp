@@ -13,7 +13,6 @@ paramp(x, p)
     \item{x}{A vector of observations.}
     \item{p}{If specified, the algorithm uses this value for \code{p},
                 i.e. the algorithm does not use an estimate of \code{p}.}
-    \item{...}{Further arguments passed to or from other methods.}
 }
 \value{The estimation of \eqn{\mu}{%
 Mp} and \eqn{p}{p} is based on an iterative method. To show differences between the

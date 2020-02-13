@@ -31,7 +31,7 @@ lmp.default<-function(formula,data=list(),p=NULL){
  p<-estimatep(res,mean(res),2)
  i1<-0
  iter<-0
- while (abs(pp-p)>0.0001 || abs(bb-b)>0.0001){
+ while (abs(pp - p) > 0.0001 || sum(abs(bb - b)) > 0.0001){
  pp<-p
  bb<-b
  op<-optim(bb,f,method="BFGS")

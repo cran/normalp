@@ -13,8 +13,8 @@ Package for exponential power distributions (EPD)
 \tabular{ll}{
 Package: \tab normalp\cr
 Type: \tab Package\cr
-Version: \tab 0.7.0\cr
-Date: \tab 2014-12-04\cr
+Version: \tab 0.7.1\cr
+Date: \tab 2020-02-13\cr
 License: \tab GPL
 }
 }
