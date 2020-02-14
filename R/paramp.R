@@ -41,11 +41,10 @@ ris$iter<-iter
 class(ris)<-"paramp"
 ris
 } 
- 
+
 print.paramp<-function(x,...){
 dat<-c(Mean=x$mean,Mp=x$mp,Sd=x$sd,Sp=x$sp,p=x$p)
 print(dat)
 cat("\nno.conv =", as.logical(x$iter),"\n\n")
 invisible(x)
 }
-

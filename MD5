@@ -1,11 +1,11 @@
-a0f0c874680a6f7f85c15e88016c5a9c *DESCRIPTION
+94be66b53fa6ee1edfed298708934175 *DESCRIPTION
 1b5a457ec0ed1898fb27960cc3c607e4 *NAMESPACE
 e5b2d5a88dd72f2d3c26b6f486e4f332 *R/dnormp.R
 59abd4e9dbb00da6fa373024ec3be0f8 *R/estimatep.R
 5aa05a04d2d097f7c85f50979e34cd7c *R/graphnp.R
 8770a238b0555f51c546dc5e9a9652ce *R/kurtosis.R
 aa3ecdfecb656ab3bf8a98228b189224 *R/lmp.R
-29e42183eedc81e407c0da77c8637df9 *R/paramp.R
+4ba7d0fc7eb89d3ddfb92356344a399c *R/paramp.R
 998cc0ffbd5da727cea65ec5ec406cbb *R/plot.lmp.R
 724c52488701047c64d6c1588711ca5e *R/plot.simul.lmp.R
 2f7a5f737a01c967be2cf4ff6a0ee648 *R/plot.simul.mp.R
@@ -22,8 +22,9 @@ c83f3461053f7f90a13c691f0d4c461e *man/estimatep.Rd
 30fa385f1ef56df2bf08cb03e79e9af4 *man/graphnp.Rd
 2d2a41f9678c442ab6a49c1009b4c0d7 *man/kurtosis.Rd
 ccee6bfb4e05a5a1e9f98026095146ff *man/lmp.Rd
-b37982039736924b78b990ee40c420d4 *man/normalp-package.Rd
-db48e8f08c80e459e63c762052305a71 *man/paramp.Rd
+0a93458513279943b7cba0e82f80eed5 *man/normalp-internal.Rd
+b3790f0cf6ad5770b5d54c148f2645a9 *man/normalp-package.Rd
+21806b41943ab0d65eb53e51306fa172 *man/paramp.Rd
 784b5da05f22b053f22b2da20d26c92e *man/plot.lmp.Rd
 f5c3fb59d103ae32f57ab3431ff4e2f9 *man/plot.simul.lmp.Rd
 c69b7479f4d5d5a2e93488e433671a51 *man/plot.simul.mp.Rd

@@ -1,7 +1,6 @@
 \name{paramp}
 \alias{paramp}
 \alias{paramp.default}
-\alias{print.paramp}
 \title{Estimation of location and scale parameters}
 \description{The function \code{paramp} returns a list with five elements: arithmetic mean, \eqn{M_p}{Mp},
 standard deviation, \eqn{S_p}{Sp}, and shape parameter \eqn{p}{p}, estimated on a sample.

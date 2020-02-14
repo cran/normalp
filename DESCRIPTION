@@ -1,6 +1,6 @@
 Package: normalp
-Version: 0.7.1
-Date: 2020-02-13
+Version: 0.7.2
+Date: 2020-02-14
 Title: Routines for Exponential Power Distribution
 Author: Angelo M. Mineo <angelo.mineo@unipa.it>
 Maintainer: Angelo M. Mineo <angelo.mineo@unipa.it>
@@ -11,6 +11,6 @@ License: GPL
 URL: https://www.r-project.org,
         https://www.unipa.it/persone/docenti/m/angelo.mineo
 NeedsCompilation: no
-Packaged: 2020-02-13 16:38:13 UTC; luigiaugugliaro
+Packaged: 2020-02-14 09:42:29 UTC; luigiaugugliaro
 Repository: CRAN
-Date/Publication: 2020-02-13 17:30:02 UTC
+Date/Publication: 2020-02-14 10:50:08 UTC
